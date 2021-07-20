@@ -6,18 +6,18 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-numb/go-ftx/auth"
+	"github.com/colinrmoody/go-ftx/auth"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-numb/go-ftx/rest"
-	"github.com/go-numb/go-ftx/rest/private/account"
-	"github.com/go-numb/go-ftx/rest/private/fills"
-	"github.com/go-numb/go-ftx/rest/private/orders"
-	"github.com/go-numb/go-ftx/rest/private/spotmargin"
-	"github.com/go-numb/go-ftx/rest/private/subaccount"
-	"github.com/go-numb/go-ftx/rest/private/wallet"
-	"github.com/go-numb/go-ftx/types"
+	"github.com/colinrmoody/go-ftx/rest"
+	"github.com/colinrmoody/go-ftx/rest/private/account"
+	"github.com/colinrmoody/go-ftx/rest/private/fills"
+	"github.com/colinrmoody/go-ftx/rest/private/orders"
+	"github.com/colinrmoody/go-ftx/rest/private/spotmargin"
+	"github.com/colinrmoody/go-ftx/rest/private/subaccount"
+	"github.com/colinrmoody/go-ftx/rest/private/wallet"
+	"github.com/colinrmoody/go-ftx/types"
 )
 
 func TestURIEncode(t *testing.T) {
