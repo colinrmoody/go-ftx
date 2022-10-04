@@ -24,6 +24,7 @@ type History struct {
 	ConfirmedTime time.Time `json:"confirmedTime"`
 	SentTime      time.Time `json:"sentTime"`
 	Time          time.Time `json:"time"`
+	Notes         string    `json:"notes,omitempty"`
 }
 
 func (req *RequestForDepositHistories) Path() string {
